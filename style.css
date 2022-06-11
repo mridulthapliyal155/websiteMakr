@@ -19,7 +19,7 @@ nav {
   /* letter-spacing: 5px; */
   font-size: 20px;
   width: 180px;
-  height: 80px;
+  height: 8vh;
 }
 
 .logo img {
@@ -67,6 +67,9 @@ nav {
 @media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
+  }
+  nav {
+    min-height: 8vh;
   }
   .nav-links {
     position: absolute;
