@@ -157,6 +157,9 @@ header {
 }
 
 @media screen and (max-width: 768px) {
+  .mainContent {
+    height: 100vh;
+  }
   .mainContent .mainTitle {
     font-size: 5vh;
   }
