@@ -10,11 +10,11 @@ nav {
   align-items: center;
   min-height: 8vh;
   font-family: "Roboto", sans-serif;
-  background-color: cornflowerblue;
+  background-color: white;
 }
 
 .logo {
-  color: white;
+  color: #010101;
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 20px;
@@ -30,11 +30,12 @@ nav {
 }
 
 .nav-links a {
-  color: rgb(51, 51, 51);
+  color: #010101;
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .burger {
@@ -44,7 +45,7 @@ nav {
 .burger div {
   width: 25px;
   height: 3px;
-  background-color: white;
+  background-color: black;
   margin: 5px;
   transition: all 0.3s ease;
 }
@@ -107,4 +108,49 @@ nav {
 }
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* Starting of header and mainContent*/
+
+header {
+  background-color: #ffc300;
+  height: 100vh;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  flex-direction: column;
+}
+
+.mainContent .mainTitle {
+  font-family: "Permanent Marker", cursive;
+  font-size: 12vh;
+}
+
+.mainContent .mainButton {
+  text-decoration: none;
+  margin-top: 10px;
+  background-color: #010101;
+  padding: 15px;
+  color: white;
+  border-radius: 28px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2vh;
+  text-align: center;
+  letter-spacing: 2px;
+  transition: all 0.3s ease-in;
+}
+
+.mainContent .mainButton:hover {
+  background-color: white;
+  color: #010101;
+}
+
+@media screen and (max-width: 768px) {
+  .mainContent .mainTitle {
+    font-size: 5vh;
+  }
 }
