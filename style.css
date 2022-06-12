@@ -303,15 +303,20 @@ footer .text-content{
   width: 7rem;
 }
 
-footer a{
-  color: rgb(235, 235, 235);
-  text-decoration: none;
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: 300;
+.links{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem
 }
 
-footer a:hover{
+.links a{
+  color: rgb(235, 235, 235);
+  text-decoration: none;
+  font-weight: 300;
+  width: min-content;
+}
+
+footer a:hover, a.active{
   color: #ffc300;
 }
 
@@ -355,4 +360,25 @@ footer a:hover{
   padding: 1rem 2rem;
   cursor: pointer;
   font-weight: 800;
+}
+
+@media screen and (max-width: 768px){
+  .footer-links-container{
+    width:100%
+  }
+
+  footer .text-content{
+    width: 90%;
+  }
+
+  .get-in-touch{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .get-in-touch h1{
+    text-align: center;
+  }
 }
