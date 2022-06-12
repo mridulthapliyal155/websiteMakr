@@ -303,15 +303,20 @@ footer .text-content{
   width: 7rem;
 }
 
-footer a{
-  color: rgb(235, 235, 235);
-  text-decoration: none;
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: 300;
+.links{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem
 }
 
-footer a:hover{
+.links a{
+  color: rgb(235, 235, 235);
+  text-decoration: none;
+  font-weight: 300;
+  width: min-content;
+}
+
+footer a:hover, a.active{
   color: #ffc300;
 }
 
