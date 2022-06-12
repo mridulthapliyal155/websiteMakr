@@ -228,8 +228,9 @@ header {
 }
 
 .tech-img-container{
-  height: 10vh;
-  width: 10vh;
+  flex-basis: 1 1 1;
+  min-width: 50px;
+  aspect-ratio: 1;
   position: relative;
 }
 
