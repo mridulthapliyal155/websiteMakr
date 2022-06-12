@@ -114,6 +114,7 @@ textarea {
 
   .text-content p {
     width: 80%;
+    margin: auto;
     text-align: center;
   }
 
@@ -125,5 +126,6 @@ textarea {
   .form-content {
     padding-bottom: 2rem;
     width: 80%;
+    margin: auto;
   }
 }
