@@ -4,17 +4,18 @@
   box-sizing: border-box;
 }
 
-body{
-    background-color: #151515;
+body {
+  background-color: #151515;
 }
 
 .contact {
   width: 80%;
   margin: auto;
   display: flex;
-  align-items: flex-start;
-  margin-top: 10rem;
-  /* justify-content: space-around; */
+  align-items: center;
+  /* margin-top: 10rem; */
+  height: 90vh;
+  justify-content: center;
   /* margin-top: 2rem; */
 }
 
@@ -23,7 +24,6 @@ body{
   align-items: flex-start;
   justify-content: space-around;
   flex-direction: column;
-  flex: 1;
 }
 .contact-content p {
   color: white;
@@ -46,8 +46,7 @@ body{
 }
 
 .form-content {
-  /* width: 25rem; */
-  flex: 1;
+  width: 50%;
 }
 
 form {
@@ -79,53 +78,30 @@ textarea {
   color: rgb(235, 235, 235);
 }
 
-.form-content button{
-    padding: 1rem 2rem;
-    background-color: #151515;
-    border: 1px solid rgb(235, 235, 235);
-    color: rgb(235, 235, 235);
-    text-transform: uppercase;
-    cursor: pointer;
+.form-content button {
+  padding: 1rem 2rem;
+  background-color: #151515;
+  border: 1px solid rgb(235, 235, 235);
+  color: rgb(235, 235, 235);
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
   .contact {
-    padding-top: 6rem;
     flex-direction: column;
     width: 100%;
-    margin: auto;
-    gap: 2rem;
   }
   .contact-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* gap: 4rem; */
-  }
-  .contact-content p {
-    text-align: center;
-  }
-
-  .text-content {
-    display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
-
-  .text-content p {
-    width: 80%;
-    margin: auto;
+  .contact-content h1,
+  p {
     text-align: center;
   }
-
-  .contact h1 {
-    text-align: center;
-    font-size: 2rem;
-  }
-
   .form-content {
-    padding-bottom: 2rem;
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    padding: 10%;
   }
 }

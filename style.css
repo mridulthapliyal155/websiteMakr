@@ -22,7 +22,7 @@ nav {
 .logo {
   /* text-transform: uppercase; */
   /* letter-spacing: 5px; */
-  height: 10vh;
+  height: 8vh;
   width: auto;
   position: relative;
 }
@@ -81,14 +81,14 @@ a.active {
     overflow-x: hidden;
   }
   nav {
-    min-height: 10vh;
+    min-height: 8vh;
     padding: 0 1rem;
   }
   .nav-links {
     position: absolute;
     right: 0px;
     height: 100vh;
-    top: 10vh;
+    top: 8vh;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -150,7 +150,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 110vh;
+  height: 90vh;
   flex-direction: column;
 }
 
@@ -276,7 +276,7 @@ header {
 
 /* Footer section */
 
-footer{
+footer {
   background-color: #151515;
   width: 100%;
   display: flex;
@@ -286,7 +286,7 @@ footer{
   padding: 5rem 0;
 }
 
-footer .text-content{
+footer .text-content {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -294,29 +294,30 @@ footer .text-content{
   height: 100%;
 }
 
-.footer-logo{
+.footer-logo {
   height: auto;
   width: 7rem;
 }
 
-.links{
+.links {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem
+  gap: 0.5rem;
 }
 
-.links a{
+.links a {
   color: rgb(235, 235, 235);
   text-decoration: none;
   font-weight: 300;
   width: min-content;
 }
 
-footer a:hover, a.active{
+footer a:hover,
+a.active {
   color: #ffc300;
 }
 
-.footer-links-container{
+.footer-links-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -325,17 +326,17 @@ footer a:hover, a.active{
   gap: 2rem;
 }
 
-.copyright{
+.copyright {
   color: rgb(235, 235, 235);
   font-weight: 500;
   font-size: 0.75rem;
 }
 
-.get-in-touch{
+.get-in-touch {
   width: 50%;
 }
 
-.get-in-touch h1{
+.get-in-touch h1 {
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: 600;
@@ -343,12 +344,12 @@ footer a:hover, a.active{
   margin-bottom: 3rem;
 }
 
-.get-in-touch span{
+.get-in-touch span {
   color: #ffc300;
   display: block;
 }
 
-.get-in-touch button{
+.get-in-touch button {
   background-color: transparent;
   color: rgb(235, 235, 235);
   text-transform: uppercase;
@@ -358,23 +359,23 @@ footer a:hover, a.active{
   font-weight: 800;
 }
 
-@media screen and (max-width: 768px){
-  .footer-links-container{
-    width:100%
+@media screen and (max-width: 768px) {
+  .footer-links-container {
+    width: 100%;
   }
 
-  footer .text-content{
+  footer .text-content {
     width: 90%;
   }
 
-  .get-in-touch{
+  .get-in-touch {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .get-in-touch h1{
+  .get-in-touch h1 {
     text-align: center;
   }
 }
