@@ -344,13 +344,13 @@ a.active {
 }
 
 .copyright {
-  color: black;
+  color: rgb(235, 235, 235);
   font-weight: 400;
-  font-size: 1.15rem;
-  background-color: white;
   width: 100%;
+  font-size: 0.75rem;
+  padding-bottom: 1rem;
   text-align: center;
-  padding: 1rem;
+  background-color: #151515;
 }
 
 @media screen and (max-width: 768px) {

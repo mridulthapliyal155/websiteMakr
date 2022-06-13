@@ -13,6 +13,7 @@ body {
   margin: auto;
   display: flex;
   align-items: center;
+  position: relative;
   /* margin-top: 10rem; */
   height: 90vh;
   justify-content: center;
