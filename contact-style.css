@@ -91,7 +91,7 @@ textarea{
     flex-direction: column;
     align-items: center;
     gap: 3rem;
-    height: 50%;
+    height: 60%;
   }
 
   .text-content{
