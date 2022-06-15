@@ -24,3 +24,7 @@ const navSlide = () => {
 };
 
 navSlide();
+
+document.getElementById("get-in-touch-button").onclick = () => {
+  location.href = "contact.html";
+};
