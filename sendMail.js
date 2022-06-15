@@ -1,7 +1,7 @@
-// (function () {
-//   // https://dashboard.emailjs.com/admin/account
-//   emailjs.init("gjVb5Dwvp8E51UdeQ");
-// })();
+(function () {
+  // https://dashboard.emailjs.com/admin/account
+  emailjs.init("gjVb5Dwvp8E51UdeQ");
+})();
 function sendEmail() {
   let name = document.getElementById("name").value;
   let email = document.getElementById("email").value;
@@ -21,8 +21,8 @@ function sendEmail() {
       email: email,
       details: details,
     };
-    // emailjs
-    //   .send("service_pagrxze", "template_4xud4os", contactParams)
-    //   .then(function (res) {});
+    emailjs
+      .send("service_pagrxze", "template_4xud4os", contactParams)
+      .then(function (res) {});
   }
 }
