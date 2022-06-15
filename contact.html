@@ -12,6 +12,8 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="contact-style.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript" src="sendMail.js"></script>
     <title>WebsiteMakr</title>
   </head>
   <body>
@@ -45,12 +47,12 @@
         </div>
 
         <div class="form-content">
-          <form class="contact-form">
-            <input type="text" placeholder="Name*" />
-            <input type="text" placeholder="Company*" />
-            <input type="text" placeholder="Email*" />
-            <textarea placeholder="Project Details*"></textarea>
-            <button>Submit</button>
+          <form class="contact-form" id="contact-form">
+            <input type="text" placeholder="Name*" id="name"/>
+            <input type="text" placeholder="Company*" id="company"/>
+            <input type="text" placeholder="Email*" id="email"/>
+            <textarea placeholder="Project Details*" id="details"></textarea>
+            <button type="button" onclick="sendEmail()">Send</button>
           </form>
         </div>
       </div>
