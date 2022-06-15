@@ -60,7 +60,7 @@ body{
 }
 
 .member-image{
-    background-color: #ffc300;
+    border: 1px solid rgb(235,235,235);
     aspect-ratio: 1;
     width: 50%;
     margin-bottom: 2rem;
@@ -69,7 +69,7 @@ body{
 .team-member h1{
     color:white;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
     
 }
