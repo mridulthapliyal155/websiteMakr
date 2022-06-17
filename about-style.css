@@ -57,9 +57,6 @@ body{
 .team-member{
     border-left: 2px solid rgb(235,235,235);
     padding-left: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 /* .member-image{
