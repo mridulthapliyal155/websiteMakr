@@ -145,16 +145,19 @@ a.active {
 /* Starting of header and mainContent*/
 
 header {
-  background-color: #ffc300;
+  background-color: #151515;
   height: 100vh;
+  border-bottom: 1px solid rgb(235, 235, 235);
 }
 
 .mainContent {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 75%;
+  margin: auto;
+  gap: 5rem;
   height: 90vh;
 }
 
@@ -167,32 +170,35 @@ header {
 }
 
 .mainCont {
-  padding: 1%;
-  flex: 1;
+  text-align: center;
 }
+
 .mainCont h1 {
-  font-size: 7vh;
-  font-family: "Permanent Marker", cursive;
-  margin-bottom: 10px;
+  font-size: 4rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 5rem;
+}
+
+.mainCont h1 span{
+  color: #ffc300;
 }
 
 .mainCont .mainButton {
   text-decoration: none;
-  margin-top: 10px;
-  background-color: #010101;
-  padding: 15px;
   color: white;
-  border-radius: 28px;
-  font-family: "Roboto", sans-serif;
-  font-size: 2vh;
-  text-align: center;
-  letter-spacing: 2px;
-  transition: all 0.3s ease-in;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  transition: 0.5s ease-in;
+  margin: 0 1rem;
+  border: 2px solid white;
 }
 
 .mainCont .mainButton:hover {
-  background-color: white;
-  color: #010101;
+  background-color: #ffc300;
+  color: black;
 }
 
 /* .mainContent {
