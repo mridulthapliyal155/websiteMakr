@@ -51,15 +51,18 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 5rem;
+    gap: 10rem;
 }
 
 .team-member{
     border-left: 2px solid rgb(235,235,235);
     padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.member-image{
+/* .member-image{
     aspect-ratio: 1;
     width: 50%;
     margin-bottom: 2rem;
@@ -68,7 +71,7 @@ body{
 .member-image img{
     width: 100%;
     height: 100%;
-}
+} */
 
 
 .team-member h1{
