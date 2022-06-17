@@ -84,7 +84,7 @@ a.active {
     min-height: 8vh;
     padding: 0 1rem;
   }
-  
+
   .nav-links {
     position: absolute;
     right: 0px;
@@ -151,15 +151,67 @@ header {
 
 .mainContent {
   display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+}
+
+.mainImg {
+  flex: 2;
+}
+.mainImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.mainCont {
+  padding: 1%;
+  flex: 1;
+}
+.mainCont h1 {
+  font-size: 7vh;
+  font-family: "Permanent Marker", cursive;
+  margin-bottom: 10px;
+}
+
+.mainCont .mainButton {
+  text-decoration: none;
+  margin-top: 10px;
+  background-color: #010101;
+  padding: 15px;
+  color: white;
+  border-radius: 28px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2vh;
+  text-align: center;
+  letter-spacing: 2px;
+  transition: all 0.3s ease-in;
+}
+
+.mainCont .mainButton:hover {
+  background-color: white;
+  color: #010101;
+}
+
+/* .mainContent {
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 90vh;
+  flex-direction: row-reverse;
+}
+.mainCont {
+  display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .mainContent .mainTitle {
   font-family: "Permanent Marker", cursive;
-  font-size: 12vh;
+  font-size: 10vh;
 }
 
 .mainContent .mainButton {
@@ -181,12 +233,41 @@ header {
   color: #010101;
 }
 
+.mainImg {
+  width: 100%;
+  height: 100vh;
+  flex: 1;
+}
+
+.mainImg img {
+  width: 100%;
+  height: 100%;
+} */
+
 @media screen and (max-width: 768px) {
   .mainContent {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
   }
+  .mainCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .mainContent .mainTitle {
-    font-size: 5vh;
+    font-size: 4vh;
+    text-align: center;
+  }
+  .mainContent .mainButton {
+    text-align: center;
+  }
+  .mainImg {
+    flex: 1;
+  }
+  .mainCont {
+    flex: 1;
   }
 }
 
@@ -347,10 +428,9 @@ a.active {
   transition: 1s ease;
 }
 
-.get-in-touch button:hover{
+.get-in-touch button:hover {
   background-color: #ffc300;
   color: #151515;
- 
 }
 
 .copyright {
