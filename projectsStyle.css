@@ -30,10 +30,9 @@ body {
   font-size: 3rem;
 }
 
-.aboutContent h1 span{
+.aboutContent h1 span {
   display: block;
   color: #ffc300;
-  
 }
 
 /* .container p {
@@ -45,19 +44,20 @@ body {
 .projects {
   padding: 1%;
 }
-.project1, .project2 {
+.project1,
+.project2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   border-bottom: 1px solid white;
 }
 
-.project2{
+.project2 {
   flex-direction: row-reverse;
 }
 
 .projectImg {
-  width: 500px;
+  width: 300px;
   height: 700px;
   padding: 5%;
   flex: 2;
@@ -111,7 +111,8 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-  .project1, .project2 {
+  .project1,
+  .project2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
