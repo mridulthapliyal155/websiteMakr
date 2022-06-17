@@ -126,10 +126,9 @@ img {
     padding: 0;
   }
   .container h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
-    font-weight: 400;
-    margin-bottom: 20px;
+    font-weight: 800;
   }
   .container p {
     font-size: 1.25rem;
