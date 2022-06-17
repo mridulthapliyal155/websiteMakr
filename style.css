@@ -254,6 +254,7 @@ header {
   .mainContent {
     height: 100vh;
   }
+  
   .mainCont {
     display: flex;
     flex-direction: column;
