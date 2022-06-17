@@ -252,26 +252,28 @@ header {
 
 @media screen and (max-width: 768px) {
   .mainContent {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
   }
   .mainCont {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
   .mainContent .mainTitle {
-    font-size: 4vh;
+    font-size: 2.5rem;
     text-align: center;
   }
   .mainContent .mainButton {
-    text-align: center;
+    display: block;
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
   }
+  
   .mainImg {
-    flex: 1;
+    display: none;
   }
+
   .mainCont {
     flex: 1;
   }
