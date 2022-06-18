@@ -28,3 +28,11 @@ navSlide();
 document.getElementById("get-in-touch-button").onclick = () => {
   location.href = "contact.html";
 };
+
+document.getElementById("homepage-button-projects").onclick = () => {
+  location.href = "projects.html";
+};
+
+document.getElementById("homepage-button-contact").onclick = () => {
+  location.href = "contact.html";
+};

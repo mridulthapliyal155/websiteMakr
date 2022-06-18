@@ -186,14 +186,15 @@ header {
 }
 
 .mainCont .mainButton {
-  text-decoration: none;
   color: white;
   font-weight: 800;
   text-transform: uppercase;
   padding: 1rem 2rem;
-  transition: color 1s ease, background-color 1s ease;
+  transition: 1s color ease, 1s background-color ease;
   margin: 0 1rem;
   border: 2px solid white;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .mainCont .mainButton:hover {
@@ -277,6 +278,12 @@ header {
 
   .mainCont {
     flex: 1;
+  }
+
+  .header-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
