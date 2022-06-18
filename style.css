@@ -190,11 +190,11 @@ header {
   font-weight: 800;
   text-transform: uppercase;
   padding: 1rem 2rem;
-  transition: 1s color ease, 1s background-color ease;
   margin: 0 1rem;
   border: 2px solid white;
   background-color: transparent;
   cursor: pointer;
+  transition: 1s color ease, 1s background-color ease;
 }
 
 .mainCont .mainButton:hover {
