@@ -395,6 +395,8 @@ footer .text-content {
 .footer-logo {
   height: auto;
   width: 10rem;
+  position: relative;
+  left: -20%;
 }
 
 .links {
@@ -468,6 +470,10 @@ a.active {
   .footer-links-container {
     width: 100%;
   }
+  .footer-logo{
+    left:0;
+  }
+  
   .links {
     align-items: center;
   }
