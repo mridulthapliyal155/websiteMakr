@@ -22,17 +22,14 @@ nav {
 .logo {
   /* text-transform: uppercase; */
   /* letter-spacing: 5px; */
-  height: 8vh;
-  width: auto;
-  position: relative;
+  height: auto;
+  width: 15rem;
+  padding: 1rem;
 }
 
 .logo img {
   height: 100%;
-  width: auto;
-  position: absolute;
-  object-position: center;
-  object-fit: cover;
+  width: 100%;
 }
 
 .nav-links {
