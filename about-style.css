@@ -8,9 +8,11 @@ body{
     border-bottom: 1px solid rgb(235,235,235);
     position: relative;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: transparent;
+    gap: 1rem;
 }
 
 .about-header nav{
@@ -28,6 +30,13 @@ body{
 
 .about-header h1 span{
     color:#ffc300;
+}
+
+.about-header p{
+    color: rgb(235,235,235);
+    text-align: center;
+    width: 45%;
+    font-size: 1.25rem;
 }
 
 .main-heading{
@@ -94,6 +103,11 @@ body{
 
     .about-main h1{
         font-size: 1.5rem;
+    }
+
+    .about-header p{
+        width: 90%;
+        font-size: 1rem;
     }
 
     .main-content{
