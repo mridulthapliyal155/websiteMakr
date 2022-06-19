@@ -24,7 +24,7 @@ nav {
   /* letter-spacing: 5px; */
   height: auto;
   width: 15rem;
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
 .logo img {
@@ -80,6 +80,10 @@ a.active {
   nav {
     min-height: 8vh;
     padding: 0 1rem;
+  }
+
+  .logo{
+    width: 10rem;
   }
 
   .nav-links {
