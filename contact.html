@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact-style.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript" src="sendMail.js"></script>
+    <link
+      rel="shortcut icon"
+      href="./resources/images/SquareCode_favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-233342200-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-233342200-1");
+    </script>
+    <title>Contact | SquareCode</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="/"><img src="./resources/images/Logo.png" alt="" /></a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <main class="contact">
+      <div class="email-sent-message" id="email-sent-message">
+        <div class="sticky-message">Your message has been sent.</div>
+      </div>
+      <div class="contact-content">
+        <div class="text-content">
+          <h1>Ready to <span>work with us?</span></h1>
+          <p>
+            Provide us with some information on your vision and we will get back
+            to in a few hours, we promise.
+          </p>
+        </div>
+
+        <div class="form-content">
+          <form class="contact-form" id="contact-form">
+            <input type="text" placeholder="Name*" id="name" />
+            <input type="text" placeholder="Company*" id="company" />
+            <input type="email" placeholder="Email*" id="email" />
+            <textarea placeholder="Project Details*" id="details"></textarea>
+            <button type="button" onclick="sendEmail()">Send</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="text-content">
+        <div class="footer-links-container">
+          <a href="/">
+            <img
+              src="./resources/images/Logo_white.png"
+              alt="logo"
+              class="footer-logo"
+          /></a>
+          <div class="links">
+            <a href="/">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html" class="active">Contact</a>
+          </div>
+        </div>
+      </div>
+      <div class="get-in-touch">
+        <h1>want to partner <span>with us?</span></h1>
+        <button id="get-in-touch-button">Get in touch</button>
+      </div>
+    </footer>
+    <div class="copyright">&copy; SquareCode 2022. All rights reserved.</div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #151515;
+}
+
+.contact{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  position: relative;
+}
+
+.contact-content{
+  width: 75%;
+  height: 50%;
+  display: flex;
+  align-items: flex-start ;
+  justify-content: space-between;
+  padding: 10rem 0;
+ 
+}
+
+.text-content h1{
+  color: white;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.text-content h1 span{
+  color: #ffc300;
+  display: block;
+}
+
+.text-content p{
+  color: rgb(235, 235, 235);
+  width: 50%;
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+::placeholder{
+  color: rgb(235, 235, 235)
+}
+
+.form-content input, .form-content textarea{
+  background-color: transparent;
+  color: rgb(235, 235, 235);
+  padding: 1rem;
+  font-size: 1rem;
+  outline: none;
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 0.25rem;
+  width: 100%;
+}
+
+textarea{
+  resize: none;
+  height: 10rem;
+}
+
+.form-content{
+  width: 50%;
+}
+
+.contact-form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+.contact-form button{
+  background-color: transparent;
+  color: rgb(235, 235, 235);
+  padding: 1rem 2rem;
+  outline: none;
+  border: 1px solid rgb(235, 235, 235);
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 800;
+  transition: 1s ease;
+}
+
+.contact-form button:hover{
+  background-color: #ffc300;
+  color: #151515;
+}
+
+.email-sent-message{
+  position: fixed;
+  background-color: #ffc300;
+  color: #151515;
+  padding: 1.5rem 2rem;
+  top: 0;
+  font-weight: 800;
+  opacity: 0;
+  transition: 1s opacity ease;
+}
+
+.email-sent-message.active{
+  opacity: 100%;
+}
+
+@media screen and (max-width: 768px){
+  .contact-content{
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    height: 60%;
+    padding: 5rem 0;
+  }
+
+  .text-content{
+    text-align: center;
+  }
+
+  .text-content h1{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .text-content p{
+    width: 90%;
+    margin: auto;
+    font-size: 1rem;
+  }
+
+  .form-content{
+    width: 90%;
+  }
+}

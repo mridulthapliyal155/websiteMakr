@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="projectsStyle.css" />
+    <link
+      rel="shortcut icon"
+      href="./resources/images/SquareCode_favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-233342200-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-233342200-1");
+    </script>
+    <title>Projects | SquareCode</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="/"><img src="./resources/images/Logo.png" alt="" /></a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <section>
+      <div class="container">
+        <div class="aboutContent">
+          <h1>WE BRING <span>IDEAS TO LIFE</span></h1>
+          <p>Your vision. Our expertise.<br />Let's build it together.</p>
+        </div>
+      </div>
+    </section>
+    <section class="projects">
+      <div class="project1">
+        <div class="projectImg">
+          <img
+            src="./resources/images/project4.jpg"
+            alt=""
+            onclick="location.href='https://sbertc.iitk.ac.in/'"
+          />
+        </div>
+        <div class="projectDetail">
+          <p class="projectTech">WEB APP</p>
+          <h4 class="projectTitle">SBERTC, IIT Kanpur</h4>
+          <p class="projectDesc">
+            A website for one of the most prestigious college of India: IIT
+            Kanpur.
+          </p>
+          <a
+            href="https://sbertc.iitk.ac.in/"
+            class="projectLink"
+            target="”_blank”"
+            >See more</a
+          >
+        </div>
+      </div>
+      <div class="project2">
+        <div class="projectImg">
+          <img
+            src="./resources/images/project1.jpg"
+            alt=""
+            onclick="location.href='https://shortly-mkgwar.netlify.app/'"
+          />
+        </div>
+        <div class="projectDetail">
+          <p class="projectTech">WEB APP</p>
+          <h4 class="projectTitle">Shortly</h4>
+          <p class="projectDesc">
+            A website that takes a link and shortens it. Fully responsive and
+            functional.
+          </p>
+          <a
+            href="https://shortly-mkgwar.netlify.app/"
+            class="projectLink"
+            target="”_blank”"
+            >See more</a
+          >
+        </div>
+      </div>
+      <div class="project1">
+        <div class="projectImg">
+          <img
+            src="./resources/images/project2.jpg"
+            alt=""
+            onclick="location.href='https://catwiki-strawhat.netlify.app/'"
+          />
+        </div>
+        <div class="projectDetail">
+          <p class="projectTech">WEB APP</p>
+          <h4 class="projectTitle">Cat Wiki</h4>
+          <p class="projectDesc">
+            A wiki built to search information about various cat species.
+          </p>
+          <a
+            href="https://catwiki-strawhat.netlify.app/"
+            class="projectLink"
+            target="”_blank”"
+            >See more</a
+          >
+        </div>
+      </div>
+
+      <div class="project2">
+        <div class="projectImg">
+          <img
+            src="./resources/images/project3.jpg"
+            alt=""
+            onclick="location.href='https://vidyarthi.herokuapp.com/'"
+          />
+        </div>
+        <div class="projectDetail">
+          <p class="projectTech">WEB APP</p>
+          <h4 class="projectTitle">Vidyarthi</h4>
+          <p class="projectDesc">
+            A website which helps users to find their dream college using
+            machine learning.
+          </p>
+          <a
+            href="https://vidyarthi.herokuapp.com/"
+            class="projectLink"
+            target="”_blank”"
+            >See more</a
+          >
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="text-content">
+        <div class="footer-links-container">
+          <a href="/">
+            <img
+              src="./resources/images/Logo_white.png"
+              alt="logo"
+              class="footer-logo"
+          /></a>
+          <div class="links">
+            <a href="/">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+      <div class="get-in-touch">
+        <h1>want to partner <span>with us?</span></h1>
+        <button id="get-in-touch-button">Get in touch</button>
+      </div>
+    </footer>
+    <div class="copyright">&copy; SquareCode 2022. All rights reserved.</div>
+    <script src="app.js"></script>
+  </body>
+</html>
